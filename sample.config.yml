@@ -1,0 +1,5 @@
+ELASTIC_HOST: 'localhost'
+ELASTIC_INDEX: 'some_elastic_index'
+ELASTIC_PORT: 9200
+ELASTIC_USER: elastic_user
+ELASTIC_PASS: elastic_pass
