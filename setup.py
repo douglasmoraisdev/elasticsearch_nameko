@@ -20,7 +20,7 @@ setuptools.setup(
     ],
 	install_requires=[
         'elasticsearch>=7.0.0,<8.0.0',
-        'nameko==3.0.0-rc8',
-        'https://github.com/douglasmoraisdev/backoff_retry/tarball/master#egg=backoff_retry'
-    ]
+        'nameko==3.0.0-rc8'
+    ],
+    dependency_links=['https://github.com/douglasmoraisdev/backoff_retry/tarball/master#egg=backoff_retry']
 )
